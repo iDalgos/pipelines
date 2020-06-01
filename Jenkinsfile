@@ -37,9 +37,8 @@ pipeline {
             steps {
                 sh "ls -Al"
                 sh "env"
-                sh "ip addr"
+                sh "ifconfig"
             }
         }
-
     }
 }
