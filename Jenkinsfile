@@ -37,7 +37,6 @@ pipeline {
             steps {
                 sh "ls -Al"
                 sh "env"
-                sh "ifconfig"
             }
         }
     }
