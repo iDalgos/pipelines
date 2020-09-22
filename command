@@ -1,0 +1,1 @@
+oc process -f ./deploy/%APP_NAME%.yml --param-file=./deploy/%APP_NAME%.env | oc apply -f -
